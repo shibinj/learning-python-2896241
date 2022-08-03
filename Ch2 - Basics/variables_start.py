@@ -24,11 +24,13 @@ print(mydict)
 # re-declaring a variable works
 
 # to access a member of a sequence type, use []
-
+print(mylist[1])
+print(mytuple[2])
 # use slices to get parts of a sequence
-
+print(mylist[1:5])
+print(mylist[1:5:2])
 # you can use slices to reverse a sequence
-
+print(mylist[::-1])
 # dictionaries are accessed via keys
 
 # ERROR: variables of different types cannot be combined

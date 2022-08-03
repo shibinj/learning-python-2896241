@@ -5,6 +5,9 @@
 
 
 # Basic data types in Python: Numbers, Strings, Booleans, Sequences, Dictionaries
+from email.errors import MultipartInvariantViolationDefect
+
+
 myint = 5
 myfloat = 13.2
 mystr = "This is a string"
@@ -32,8 +35,8 @@ print(mylist[1:5:2])
 # you can use slices to reverse a sequence
 print(mylist[::-1])
 # dictionaries are accessed via keys
-
+print(mydict["one"])
 # ERROR: variables of different types cannot be combined
-
+print("string type " + str(123))
 # Global vs. local variables in functions
 
